@@ -1,0 +1,6 @@
+Build (from inside web folder):
+docker build -t my-first-docker:latest .
+
+Run:
+docker run -it -p 5000:5000 --name flask-tst my-first-docker
+
